@@ -1,0 +1,149 @@
+/* Comment Code */
+body{
+	background-color:Powderblue;
+}
+
+/* Comment Code */
+p{
+	color:orangered;
+}
+
+/* Comment Code */
+h1{
+	color:red;
+}
+
+/* Comment Code */
+table, th, td{
+    border:5px solid black;
+}
+
+/* Comment Code */
+.asad{
+    text-shadow: 3px 3px 5px red;
+    font-size: 30px;
+    animation-name:alpha;
+    animation-iteration-count: infinite;
+    position:relative;
+    animation-duration: 5s;
+}
+
+/* Comment Code */
+@keyframes  alpha{
+    0%      {text-shadow: 15px 7px 5px yellow; left:0px; top:0px;}
+    25%     {text-shadow: 15px 7px 5px green; left:200px; top:0px;}
+    50%     {text-shadow: 15px 7px 5px orange; left:200px; top:200px;}
+    75%     {text-shadow: 15px 7px 5px gray; left:0px; top:200px;}
+    100%    {text-shadow: 15px 7px 5px blue; left:0px; top:0px;}
+}
+
+/* Comment Code */
+.hamza{
+    background-color:red;
+    width:500px;
+    height:400px;
+    animation-name:asad;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+/* Comment Code */
+@keyframes asad{
+  0%  {background-color: yellow; left:0px; top:0px;}
+   50%     {background-color:black; left:0px; top:200px;}
+   100%  {background-color: blue; left:200px; top:0px;}
+}
+
+/* Comment Code */
+ul{
+    background-color: bisque;
+    color:white;
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Comment Code */
+li a{
+    display: block;
+    color:black;
+    padding:10px 20px;
+    text-decoration:none;
+    width:400px;
+}
+
+/* Comment Code */
+li a:hover{
+    background-color:aqua;
+    color:black;
+}
+
+/* Comment Code */
+.ok ul{
+    background-color: antiquewhite;
+    list-style-type:none;
+    padding:0%;
+    margin:0%;
+    overflow:hidden;
+}
+
+/* Comment Code */
+.ok li{
+    float:left;
+}
+
+/* Comment Code */
+.ok.li a{
+    display:inline;
+    text-decoration: none;
+    color:white;
+    padding:10px 14px;
+    text-align: center;
+}
+
+
+
+<!DOCTYPE html>
+<html>
+    <style>
+.city {
+    background-color: brown;
+    border:2px groove Powderblue;
+    padding:10px;
+    margin:20px;
+    color:white;
+}
+.main   {
+    text-align:center;
+}
+#asad    {
+    background-color:black;
+    border:10px solid red;
+    padding:20px;
+    color:yellow;
+}
+    </style>
+<head>
+    <title>Classes</title>
+</head>
+<body>
+    <h2 class="city main">Countries and his Capital city:</h2>
+ <div class="city">
+    <h1>Islamabad</h1>
+    <p>Islamabad is The Capital city of Pakistan.</p>
+ </div>
+ <div class="city">
+    <h1>London</h1>
+    <p>London is the Capital of England.</p>
+ </div>
+ <div class="city">
+    <h1>Tokyo</h1>
+    <p>Tokyo is the Capital of Japan.</p>
+</div>
+<h1>My Name is <span style="border:1px solid blue;background-color: black; color:white;">Asad Naeem.</span></h1>
+<h2>The Id Attribute</h2>
+<p>The Id Attribute is define as:</p>
+<h1 id="asad">Asad Khokhar</h1>
+<iframe src="https://w3school.com" height="1200" width="1300" title="Iframe Example"></iframe>
+</body>
+</html>
